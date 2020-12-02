@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		336174E225773B6D00FCF58D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336174E125773B6D00FCF58D /* MainViewController.swift */; };
+		336174E525773BC500FCF58D /* CallBackProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336174E425773BC500FCF58D /* CallBackProtocol.swift */; };
+		336174E825773C1D00FCF58D /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336174E725773C1D00FCF58D /* Protocol.swift */; };
+		336174EC25773C4500FCF58D /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336174EB25773C4500FCF58D /* BasePresenter.swift */; };
+		336174EF25773C6C00FCF58D /* BaseImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336174EE25773C6C00FCF58D /* BaseImplementation.swift */; };
+		336174F225773CDC00FCF58D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336174F125773CDC00FCF58D /* BaseViewController.swift */; };
+		336174F525773D2F00FCF58D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336174F425773D2F00FCF58D /* Extensions.swift */; };
+		3361750125773F2E00FCF58D /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361750025773F2E00FCF58D /* WebService.swift */; };
+		3361750425773F9E00FCF58D /* WebServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361750325773F9E00FCF58D /* WebServiceProtocol.swift */; };
+		3361750725773FBD00FCF58D /* WebServiceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361750625773FBD00FCF58D /* WebServiceBuilder.swift */; };
+		3361750A2577401300FCF58D /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336175092577401300FCF58D /* MainPresenter.swift */; };
+		3361750D2577403000FCF58D /* MainPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361750C2577403000FCF58D /* MainPresenterProtocol.swift */; };
+		336175102577403F00FCF58D /* MainProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361750F2577403F00FCF58D /* MainProtocol.swift */; };
+		3386BA3F2576EA9C00004162 /* Prueba_GapsiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3386BA3E2576EA9C00004162 /* Prueba_GapsiApp.swift */; };
+		3386BA412576EA9C00004162 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3386BA402576EA9C00004162 /* ContentView.swift */; };
+		3386BA432576EAA400004162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3386BA422576EAA400004162 /* Assets.xcassets */; };
+		3386BA462576EAA400004162 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3386BA452576EAA400004162 /* Preview Assets.xcassets */; };
+		33C959542576F9B900BD6805 /* shopping.json in Resources */ = {isa = PBXBuildFile; fileRef = 33C959532576F9B900BD6805 /* shopping.json */; };
+		33C959772577332700BD6805 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C959762577332700BD6805 /* Item.swift */; };
+		33C95980257736B400BD6805 /* CustomTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C9597F257736B400BD6805 /* CustomTableCellView.swift */; };
+		33C95983257737FA00BD6805 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C95982257737FA00BD6805 /* Search.storyboard */; };
+		8700B4A5B35ACFE78446FD44 /* Pods_Prueba_Gapsi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54610D90A1FA1CF360FE96E /* Pods_Prueba_Gapsi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		336174E125773B6D00FCF58D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		336174E425773BC500FCF58D /* CallBackProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallBackProtocol.swift; sourceTree = "<group>"; };
+		336174E725773C1D00FCF58D /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		336174EB25773C4500FCF58D /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		336174EE25773C6C00FCF58D /* BaseImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseImplementation.swift; sourceTree = "<group>"; };
+		336174F125773CDC00FCF58D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		336174F425773D2F00FCF58D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3361750025773F2E00FCF58D /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		3361750325773F9E00FCF58D /* WebServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceProtocol.swift; sourceTree = "<group>"; };
+		3361750625773FBD00FCF58D /* WebServiceBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceBuilder.swift; sourceTree = "<group>"; };
+		336175092577401300FCF58D /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		3361750C2577403000FCF58D /* MainPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterProtocol.swift; sourceTree = "<group>"; };
+		3361750F2577403F00FCF58D /* MainProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProtocol.swift; sourceTree = "<group>"; };
+		3386BA3B2576EA9C00004162 /* Prueba Gapsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prueba Gapsi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3386BA3E2576EA9C00004162 /* Prueba_GapsiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba_GapsiApp.swift; sourceTree = "<group>"; };
+		3386BA402576EA9C00004162 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3386BA422576EAA400004162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3386BA452576EAA400004162 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3386BA472576EAA400004162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C959532576F9B900BD6805 /* shopping.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shopping.json; sourceTree = "<group>"; };
+		33C959762577332700BD6805 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		33C9597F257736B400BD6805 /* CustomTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableCellView.swift; sourceTree = "<group>"; };
+		33C95982257737FA00BD6805 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		C54610D90A1FA1CF360FE96E /* Pods_Prueba_Gapsi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prueba_Gapsi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E2BEDC79FF6C2C659AD1F6 /* Pods-Prueba Gapsi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba Gapsi.debug.xcconfig"; path = "Target Support Files/Pods-Prueba Gapsi/Pods-Prueba Gapsi.debug.xcconfig"; sourceTree = "<group>"; };
+		DF2B24388385D3B8C81A29FB /* Pods-Prueba Gapsi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba Gapsi.release.xcconfig"; path = "Target Support Files/Pods-Prueba Gapsi/Pods-Prueba Gapsi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3386BA382576EA9C00004162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8700B4A5B35ACFE78446FD44 /* Pods_Prueba_Gapsi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3386BA322576EA9C00004162 = {
+			isa = PBXGroup;
+			children = (
+				3386BA3D2576EA9C00004162 /* Prueba Gapsi */,
+				3386BA3C2576EA9C00004162 /* Products */,
+				D90B98CD8955399586FA0EE4 /* Pods */,
+				F39588B75E0626F39238A18E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3386BA3C2576EA9C00004162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3386BA3B2576EA9C00004162 /* Prueba Gapsi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3386BA3D2576EA9C00004162 /* Prueba Gapsi */ = {
+			isa = PBXGroup;
+			children = (
+				33C9597E257735D200BD6805 /* Rest */,
+				33C9597D257735C100BD6805 /* Tools */,
+				33C9597A2577358900BD6805 /* UI */,
+				33C95975257732FE00BD6805 /* Models */,
+				33C959532576F9B900BD6805 /* shopping.json */,
+				3386BA3E2576EA9C00004162 /* Prueba_GapsiApp.swift */,
+				3386BA402576EA9C00004162 /* ContentView.swift */,
+				3386BA422576EAA400004162 /* Assets.xcassets */,
+				3386BA472576EAA400004162 /* Info.plist */,
+				3386BA442576EAA400004162 /* Preview Content */,
+				33C95982257737FA00BD6805 /* Search.storyboard */,
+			);
+			path = "Prueba Gapsi";
+			sourceTree = "<group>";
+		};
+		3386BA442576EAA400004162 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3386BA452576EAA400004162 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33C95975257732FE00BD6805 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33C959762577332700BD6805 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33C9597A2577358900BD6805 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				33C9598525773A1700BD6805 /* Main */,
+				33C9597C257735A400BD6805 /* Custom */,
+				33C9597B2577359900BD6805 /* Base */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		33C9597B2577359900BD6805 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				336174E425773BC500FCF58D /* CallBackProtocol.swift */,
+				336174E725773C1D00FCF58D /* Protocol.swift */,
+				336174EB25773C4500FCF58D /* BasePresenter.swift */,
+				336174EE25773C6C00FCF58D /* BaseImplementation.swift */,
+				336174F125773CDC00FCF58D /* BaseViewController.swift */,
+				336174F425773D2F00FCF58D /* Extensions.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		33C9597C257735A400BD6805 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				33C9597F257736B400BD6805 /* CustomTableCellView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		33C9597D257735C100BD6805 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		33C9597E257735D200BD6805 /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				3361750025773F2E00FCF58D /* WebService.swift */,
+				3361750325773F9E00FCF58D /* WebServiceProtocol.swift */,
+				3361750625773FBD00FCF58D /* WebServiceBuilder.swift */,
+			);
+			path = Rest;
+			sourceTree = "<group>";
+		};
+		33C9598525773A1700BD6805 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				336174E125773B6D00FCF58D /* MainViewController.swift */,
+				336175092577401300FCF58D /* MainPresenter.swift */,
+				3361750C2577403000FCF58D /* MainPresenterProtocol.swift */,
+				3361750F2577403F00FCF58D /* MainProtocol.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D90B98CD8955399586FA0EE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6E2BEDC79FF6C2C659AD1F6 /* Pods-Prueba Gapsi.debug.xcconfig */,
+				DF2B24388385D3B8C81A29FB /* Pods-Prueba Gapsi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F39588B75E0626F39238A18E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C54610D90A1FA1CF360FE96E /* Pods_Prueba_Gapsi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3386BA3A2576EA9C00004162 /* Prueba Gapsi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3386BA4A2576EAA500004162 /* Build configuration list for PBXNativeTarget "Prueba Gapsi" */;
+			buildPhases = (
+				A77508E223963B6E53D520D9 /* [CP] Check Pods Manifest.lock */,
+				3386BA372576EA9C00004162 /* Sources */,
+				3386BA382576EA9C00004162 /* Frameworks */,
+				3386BA392576EA9C00004162 /* Resources */,
+				D6171E96CF5909FA474AE77B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prueba Gapsi";
+			packageProductDependencies = (
+			);
+			productName = "Prueba Gapsi";
+			productReference = 3386BA3B2576EA9C00004162 /* Prueba Gapsi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3386BA332576EA9C00004162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					3386BA3A2576EA9C00004162 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 3386BA362576EA9C00004162 /* Build configuration list for PBXProject "Prueba Gapsi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3386BA322576EA9C00004162;
+			packageReferences = (
+			);
+			productRefGroup = 3386BA3C2576EA9C00004162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3386BA3A2576EA9C00004162 /* Prueba Gapsi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3386BA392576EA9C00004162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3386BA462576EAA400004162 /* Preview Assets.xcassets in Resources */,
+				33C959542576F9B900BD6805 /* shopping.json in Resources */,
+				33C95983257737FA00BD6805 /* Search.storyboard in Resources */,
+				3386BA432576EAA400004162 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A77508E223963B6E53D520D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prueba Gapsi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6171E96CF5909FA474AE77B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba Gapsi/Pods-Prueba Gapsi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba Gapsi/Pods-Prueba Gapsi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Prueba Gapsi/Pods-Prueba Gapsi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3386BA372576EA9C00004162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3361750125773F2E00FCF58D /* WebService.swift in Sources */,
+				336174E525773BC500FCF58D /* CallBackProtocol.swift in Sources */,
+				336175102577403F00FCF58D /* MainProtocol.swift in Sources */,
+				336174EC25773C4500FCF58D /* BasePresenter.swift in Sources */,
+				336174F225773CDC00FCF58D /* BaseViewController.swift in Sources */,
+				33C959772577332700BD6805 /* Item.swift in Sources */,
+				33C95980257736B400BD6805 /* CustomTableCellView.swift in Sources */,
+				3361750725773FBD00FCF58D /* WebServiceBuilder.swift in Sources */,
+				336174E825773C1D00FCF58D /* Protocol.swift in Sources */,
+				3386BA412576EA9C00004162 /* ContentView.swift in Sources */,
+				336174F525773D2F00FCF58D /* Extensions.swift in Sources */,
+				336174EF25773C6C00FCF58D /* BaseImplementation.swift in Sources */,
+				3361750A2577401300FCF58D /* MainPresenter.swift in Sources */,
+				336174E225773B6D00FCF58D /* MainViewController.swift in Sources */,
+				3361750D2577403000FCF58D /* MainPresenterProtocol.swift in Sources */,
+				3361750425773F9E00FCF58D /* WebServiceProtocol.swift in Sources */,
+				3386BA3F2576EA9C00004162 /* Prueba_GapsiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3386BA482576EAA400004162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3386BA492576EAA500004162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3386BA4B2576EAA500004162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E2BEDC79FF6C2C659AD1F6 /* Pods-Prueba Gapsi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Prueba Gapsi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Prueba Gapsi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IRIsoft.Prueba-Gapsi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3386BA4C2576EAA500004162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2B24388385D3B8C81A29FB /* Pods-Prueba Gapsi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Prueba Gapsi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Prueba Gapsi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "IRIsoft.Prueba-Gapsi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3386BA362576EA9C00004162 /* Build configuration list for PBXProject "Prueba Gapsi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3386BA482576EAA400004162 /* Debug */,
+				3386BA492576EAA500004162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3386BA4A2576EAA500004162 /* Build configuration list for PBXNativeTarget "Prueba Gapsi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3386BA4B2576EAA500004162 /* Debug */,
+				3386BA4C2576EAA500004162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3386BA332576EA9C00004162 /* Project object */;
+}
